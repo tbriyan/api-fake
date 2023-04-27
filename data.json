@@ -2,12 +2,12 @@
   "sistema": [
     {
       "id": 1,
-      "nombre": "Sistema de control de asistencia 1",
-      "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
+      "nombre": "Sistema de control de asistencia 1434",
+      "descripcion": "hola de este edit estamos habland asdffdffffffffffffffffffasdfasdf af asdf asdfasdf",
       "plan_actual": "simple",
       "sigla": "SDCDA",
       "nro_servicios": 43,
-      "responsable": "pedro arturo lopez gomez",
+      "responsable": "iulius sandoval perez fujimori",
       "fecha_creacion": "02/12/2010",
       "tipo": "publicador",
       "servicios": {
@@ -27,60 +27,110 @@
             "version": "1.1"
           }
         ],
-        "avanzado": [],
+        "avanzado": [
+          {
+            "id": 3,
+            "nombre": "ServiciosP de pagos en linea 22",
+            "entidad": "Bdfg",
+            "tipo": "REST",
+            "version": "1.1"
+          }
+        ],
         "vip": []
       }
     },
     {
       "id": 2,
-      "nombre": "Sistema de control de asistencia 2",
+      "nombre": "Sistema de control de asistenciad",
       "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
       "plan_actual": "simple",
       "sigla": "SDCDA",
       "nro_servicios": 43,
-      "responsable": "pedro arturo lopez gomez",
+      "responsable": "Carlos arturo romero baltazar",
       "fecha_creacion": "02/12/2010",
-      "tipo": "publicador"
+      "tipo": "publicador",
+      "encargado": "pedro arturo lopez gomez"
     },
     {
       "id": 3,
-      "nombre": "Consumidor sitema de prueba123",
+      "nombre": "Consumidor sitema de prueba12344",
       "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
       "plan_actual": "simple",
       "sigla": "CSDP",
       "cuota_consumo": 100,
       "nro_servicios": 3,
-      "responsable": "pedro arturo lopez gomez",
+      "responsable": "maria perez gomez",
       "fecha_creacion": "02/12/2010",
       "tipo": "consumidor",
-      "servicios": [
-        {
-          "id": 1,
-          "nombre": "ServiciosC de pagos en linea",
-          "entidad": "BTV",
-          "tipo": "REST",
-          "version": "1.1",
-          "suscrito": true,
-          "cuota": 50
-        },
-        {
-          "id": 2,
-          "nombre": "ServiciosC de prueba y consumo",
-          "entidad": "BTV",
-          "tipo": "REST",
-          "version": "1.1",
-          "suscrito": true,
-          "cuota": 50
-        }
-      ]
+      "servicios": {
+        "simple": [
+          {
+            "id": 6,
+            "nombre": "Servicios de pagos en linea",
+            "entidad": "BTV",
+            "tipo": "REST",
+            "version": "1.1",
+            "suscrito": true,
+            "cuota": 13
+          },
+          {
+            "id": 7,
+            "nombre": "Servicios66 6de pagos en linea",
+            "entidad": "BTssV",
+            "tipo": "REST",
+            "version": "1.1",
+            "suscrito": true,
+            "cuota": 13
+          }
+        ]
+      },
+      "plan": "simple"
     },
     {
-      "nombre": "Consumidor sitema de prueba11",
-      "sigla": "CSDP",
-      "responsable": "pedro arturo lopez gomez",
-      "tipo": "consumidor",
       "id": 4,
-      "servicios": []
+      "nombre": "Consumidor sitema de prueba4444",
+      "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
+      "plan_actual": "simple",
+      "sigla": "CSDP",
+      "cuota_consumo": 12,
+      "nro_servicios": 10,
+      "responsable": "maria perez gomez",
+      "fecha_creacion": "02/12/2010",
+      "tipo": "consumidor",
+      "servicios": {
+        "simple": [
+          {
+            "id": 6,
+            "nombre": "Servicios de pagos en linea",
+            "entidad": "BTV",
+            "tipo": "REST",
+            "version": "1.1",
+            "suscrito": false,
+            "cuota": 13
+          },
+          {
+            "id": 7,
+            "nombre": "Servicios66 6de pagos en linea",
+            "entidad": "BTssV",
+            "tipo": "REST",
+            "version": "1.1",
+            "suscrito": true,
+            "cuota": 13
+          }
+        ],
+        "avanzado": [
+          {
+            "id": 8,
+            "nombre": "Servicios3332366 6de pagos en linea",
+            "entidad": "MODALLASDF",
+            "tipo": "SOAP",
+            "version": "1.1",
+            "suscrito": true,
+            "cuota": 13
+          }
+        ],
+        "vip": []
+      }
     }
   ],
   "usuarios": [
@@ -93,8 +143,78 @@
       "nombre": "pedro arturo lopez gomez"
     },
     {
-      "id": 2,
+      "id": 3,
       "nombre": "maria perez gomez"
+    }
+  ],
+  "servicios" : [
+    {
+      "id" : 4,
+      "simple" : [
+        {
+          "id": 20,
+          "nombre": "Servicios de pagos 4en linea",
+          "entidad": "BTV",
+          "tipo": "REST",
+          "version": "1.1",
+          "suscrito": false,
+          "cuota": 13
+        },
+        {
+          "id": 21,
+          "nombre": "Servicios66 6de pago4s en linea",
+          "entidad": "BTssV",
+          "tipo": "REST",
+          "version": "1.1",
+          "suscrito": true,
+          "cuota": 13
+        }
+      ],
+      "avanzado" : [
+        {
+          "id": 25,
+          "nombre": "Servicios3332366 6de pag4os en linea",
+          "entidad": "MODALLASDF",
+          "tipo": "SOAP",
+          "version": "1.1",
+          "suscrito": true,
+          "cuota": 13
+        }
+      ]
+    },
+    {
+      "id" : 3,
+      "simple" : [
+        {
+          "id": 230,
+          "nombre": "Servicios de pagos en linea",
+          "entidad": "BTV",
+          "tipo": "REST",
+          "version": "1.1",
+          "suscrito": false,
+          "cuota": 13
+        },
+        {
+          "id": 241,
+          "nombre": "Servicios66 6de pagos en linea",
+          "entidad": "BTssV",
+          "tipo": "REST",
+          "version": "1.1",
+          "suscrito": true,
+          "cuota": 13
+        }
+      ],
+      "avanzado" : [
+        {
+          "id": 253,
+          "nombre": "Servicios3332366 6de pagos en linea",
+          "entidad": "MODALLASDF",
+          "tipo": "SOAP",
+          "version": "1.1",
+          "suscrito": true,
+          "cuota": 13
+        }
+      ]
     }
   ]
 }
