@@ -1,0 +1,38 @@
+{
+    "sistema": [
+        {
+            "id": 1,
+            "nombre": "Sistema de control de asistencia 1",
+            "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
+            "plan_actual": "simple",
+            "sigla": "SDCDA",
+            "nro_servicios": 43,
+            "responsable": "pedro arturo lopez gomez",
+            "fecha_creacion": "02/12/2010",
+            "tipo": "publicador"
+        },
+        {
+            "id": 2,
+            "nombre": "Sistema de control de asistencia 2",
+            "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
+            "plan_actual": "simple",
+            "sigla": "SDCDA",
+            "nro_servicios": 43,
+            "responsable": "pedro arturo lopez gomez",
+            "fecha_creacion": "02/12/2010",
+            "tipo": "publicador"
+        },
+        {
+            "id": 3,
+            "nombre": "Consumidor sitema de prueba",
+            "descripcion": "DLorem m dolor sit, amet consectetur adipisicing elit",
+            "plan_actual": "simple",
+            "sigla": "CSDP",
+            "cuota_consumo": 100,
+            "nro_servicios": 3,
+            "responsable": "pedro arturo lopez gomez",
+            "fecha_creacion": "02/12/2010",
+            "tipo": "consumidor"
+        }
+    ]
+}

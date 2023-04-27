@@ -1,0 +1,15 @@
+{
+  "name": "api-fake",
+  "version": "1.0.0",
+  "description": "API fake para probar interoperabilidad v2.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "json-server --watch data.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}
