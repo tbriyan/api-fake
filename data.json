@@ -131,6 +131,22 @@
         ],
         "vip": []
       }
+    },
+    {
+      "nombre": "kjjh j hjh jh jh j",
+      "sigla": "KJHJJJ",
+      "responsable": "fusfuruberto pinto paredes",
+      "tipo": "todos",
+      "descripcion": "jkjh jkh kjh kj ",
+      "id": 5
+    },
+    {
+      "nombre": "",
+      "sigla": "",
+      "responsable": "",
+      "tipo": "todos",
+      "descripcion": "",
+      "id": 6
     }
   ],
   "usuarios": [
@@ -147,74 +163,52 @@
       "nombre": "maria perez gomez"
     }
   ],
-  "servicios" : [
+  "servicios": [
     {
-      "id" : 4,
-      "simple" : [
-        {
-          "id": 20,
-          "nombre": "Servicios de pagos 4en linea",
-          "entidad": "BTV",
-          "tipo": "REST",
-          "version": "1.1",
-          "suscrito": false,
-          "cuota": 13
-        },
-        {
-          "id": 21,
-          "nombre": "Servicios66 6de pago4s en linea",
-          "entidad": "BTssV",
-          "tipo": "REST",
-          "version": "1.1",
-          "suscrito": true,
-          "cuota": 13
-        }
-      ],
-      "avanzado" : [
-        {
-          "id": 25,
-          "nombre": "Servicios3332366 6de pag4os en linea",
-          "entidad": "MODALLASDF",
-          "tipo": "SOAP",
-          "version": "1.1",
-          "suscrito": true,
-          "cuota": 13
-        }
-      ]
+      "id": 8,
+      "id_sistema": 4,
+      "nombre": "ServiciosCOnsumidor2 6de pagos en linea",
+      "entidad": "MODALLASDF",
+      "tipo": "SOAP",
+      "plan": "simple",
+      "tipo_serv": "consumidor",
+      "version": "1.1",
+      "suscrito": true,
+      "cuota": 13
     },
     {
-      "id" : 3,
-      "simple" : [
-        {
-          "id": 230,
-          "nombre": "Servicios de pagos en linea",
-          "entidad": "BTV",
-          "tipo": "REST",
-          "version": "1.1",
-          "suscrito": false,
-          "cuota": 13
-        },
-        {
-          "id": 241,
-          "nombre": "Servicios66 6de pagos en linea",
-          "entidad": "BTssV",
-          "tipo": "REST",
-          "version": "1.1",
-          "suscrito": true,
-          "cuota": 13
-        }
-      ],
-      "avanzado" : [
-        {
-          "id": 253,
-          "nombre": "Servicios3332366 6de pagos en linea",
-          "entidad": "MODALLASDF",
-          "tipo": "SOAP",
-          "version": "1.1",
-          "suscrito": true,
-          "cuota": 13
-        }
-      ]
+      "id": 9,
+      "id_sistema": 4,
+      "nombre": "ServiciosCOnsumidor1 6de pagos en linea",
+      "entidad": "MODALLASDF",
+      "tipo": "SOAP",
+      "plan": "avanzado",
+      "tipo_serv": "consumidor",
+      "version": "1.12",
+      "suscrito": true,
+      "cuota": 13
+    },
+    {
+      "id": 30,
+      "id_sistema": 4,
+      "nombre": "ServiciosCOnsumidor30 6de pagos en linea",
+      "entidad": "MODALLASDF",
+      "tipo": "SOAP",
+      "plan": "simple",
+      "tipo_serv": "consumidor",
+      "version": "1.12",
+      "suscrito": true,
+      "cuota": 50
+    },
+    {
+      "id": 11,
+      "id_sistema": 4,
+      "nombre": "ServiciosConsumidor 6de pagos en linea",
+      "entidad": "MODALLASDF",
+      "tipo": "REST",
+      "plan": "simple",
+      "tipo_serv": "publicador",
+      "version": "1.12"
     }
   ]
 }

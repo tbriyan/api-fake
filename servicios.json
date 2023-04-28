@@ -1,0 +1,13 @@
+{
+    "servicio" : [
+        {
+            "id" : 1,
+            "nombre" : "Servicio 1",
+            "sigla" : "S1DP",
+            "descripcion" : "Descripcion de servicio 1",
+            "visibilidad" : "publico",
+            "fecha_inicio" : "02/12/2022",
+            "fecha_final" : "02/12/2022"
+        }
+    ]
+}
