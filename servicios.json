@@ -8,6 +8,53 @@
             "visibilidad" : "publico",
             "fecha_inicio" : "02/12/2022",
             "fecha_final" : "02/12/2022"
+        },
+        {
+            "id" : 2,
+            "nombre" : "Servicio 2",
+            "sigla" : "S1DP",
+            "descripcion" : "Descripcion de servicio 1",
+            "visibilidad" : "publico",
+            "fecha_inicio" : "02/12/2022",
+            "fecha_final" : "02/12/2022"
+        },
+        {
+            "id" : 3,
+            "nombre" : "Servicio 3",
+            "sigla" : "S1DP",
+            "descripcion" : "Descripcion de servicio 1",
+            "visibilidad" : "publico",
+            "fecha_inicio" : "02/12/2022",
+            "fecha_final" : "02/12/2022"
+        }
+    ],
+    "version" : [
+        {
+            "id" : 1,
+            "id_servicio" : 3,
+            "version" : "1.23",
+            "tipo" : "REST",
+            "URL_servicio" : "www.pipocaschidas.com.bo",
+            "descripcion" : "Lorem ipsum etc, descripcion fake de prueba y error",
+            "estado_transaccion" : "Verificado"
+        },
+        {
+            "id" : 2,
+            "id_servicio" : 3,
+            "version" : "2.0",
+            "tipo" : "SOAP",
+            "URL_servicio" : "www.pipocaschidas2.0.com.bo",
+            "descripcion" : "Lorem ipsum etc, descripcion fake de prueba y error",
+            "estado_transaccion" : "Por verificar"
+        },
+        {
+            "id" : 3,
+            "id_servicio" : 4,
+            "version" : "1.0",
+            "tipo" : "REST",
+            "URL_servicio" : "www.pipocaschidas5.0.com.bo",
+            "descripcion" : "Lorem ipsum etc, descripcion fake de prueba y error",
+            "estado_transaccion" : "Verificado"
         }
     ]
 }
